@@ -1,0 +1,11 @@
+
+var ball;
+var Start = function() {
+	
+	ball = SpawnRect(50, 50, 50, 50, null, "#ffff00");
+	ball.name = "Ball";
+};
+
+var Update = function(var deltaTime) {
+	ball.x += deltaTime * 50;
+};

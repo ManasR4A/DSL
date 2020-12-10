@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MegaScrypt">
+      <UniqueIdentifier>{cf89306a-1d4c-4658-a31c-4ce0d94b0e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MegaScrypt">
+      <UniqueIdentifier>{dc365a4d-296e-4118-aaad-811b47091e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MegaScrypt\Generated">
+      <UniqueIdentifier>{5bf3e88b-e8d2-4ec8-8477-e826b0f8a501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MegaScrypt\Generated">
+      <UniqueIdentifier>{bc3fe635-77f1-4ef3-ba43-37dea49ad9fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MegaScrypt\Processor.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\Object.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\Machine.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\Generated\MegaScryptBaseVisitor.h">
+      <Filter>Header Files\MegaScrypt\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\Generated\MegaScryptLexer.h">
+      <Filter>Header Files\MegaScrypt\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\Generated\MegaScryptParser.h">
+      <Filter>Header Files\MegaScrypt\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\Generated\MegaScryptVisitor.h">
+      <Filter>Header Files\MegaScrypt\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\Array.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\IFunction.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\InvocationContext.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\NativeFunction.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaScrypt\ScriptFunction.h">
+      <Filter>Header Files\MegaScrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MegaScrypt\Machine.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\Object.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\Processor.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\Generated\MegaScryptVisitor.cpp">
+      <Filter>Source Files\MegaScrypt\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\Generated\MegaScryptParser.cpp">
+      <Filter>Source Files\MegaScrypt\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\Generated\MegaScryptLexer.cpp">
+      <Filter>Source Files\MegaScrypt\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\Generated\MegaScryptBaseVisitor.cpp">
+      <Filter>Source Files\MegaScrypt\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\Array.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\IFunction.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\InvocationContext.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\NativeFunction.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaScrypt\ScriptFunction.cpp">
+      <Filter>Source Files\MegaScrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MegaScrypt\MegaScrypt.g4">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
